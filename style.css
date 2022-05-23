@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    border: 1px solid black;
+}
+
+img{
+    max-width: 300px;
+}
+
+.logo-link{
+    flex-grow:1;
+    padding: 1em 2em;
+}
+
+.nav-bar{
+    flex-grow: 1;
+}
+
+.nav-list{
+    display:flex;
+    justify-content: end;
+}
+
+.nav-bar ul li{
+    list-style: none;
+    margin: auto;
+    padding: 0.5em 1em;
+    
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
