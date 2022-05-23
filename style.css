@@ -1,24 +1,31 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif, Arial, Helvetica;
+    background-color: rgb(231, 229, 229);
 }
 
 .header{
     display: flex;
-    border: 1px solid black;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
 }
 
 img{
-    max-width: 300px;
+    width:min(35vw, 300px) ;
+    cursor: pointer;
 }
 
 .logo-link{
     flex-grow:1;
-    padding: 1em 2em;
+    margin: auto;
+    cursor: default;
 }
 
 .nav-bar{
     flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .nav-list{
@@ -28,12 +35,20 @@ img{
 
 .nav-bar ul li{
     list-style: none;
-    margin: auto;
-    padding: 0.5em 1em;
-    
+    margin: auto 10%;
+    white-space: nowrap;
+}
+
+@media (max-width: 750px){
+    .header {
+        font-size:  1.7vw;
+    }
 }
 
 .nav-bar ul li a{
     text-decoration: none;
     text-transform: capitalize;
+    color: black;
+    cursor: pointer;
+    flex-shrink: 1;
 }
