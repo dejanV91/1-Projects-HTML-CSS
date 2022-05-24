@@ -9,7 +9,7 @@ body{
     display: flex;
     padding: 15px;
     width: 100%;
-    position: fixed;
+    background-attachment: fixed;
 }
 
 img{
@@ -41,7 +41,7 @@ img{
 
 @media (max-width: 749px){
     .header {
-        font-size:  1.7vw;
+        font-size:  2.2vw;
     }
 }
 
@@ -52,3 +52,52 @@ img{
     cursor: pointer;
     flex-shrink: 1;
 }
+
+
+
+/* ========= Hero Section ======== */
+
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+@media (max-width: 600px){
+    #hero-section ,#hero-form, #hero-form input{
+        font-size:  2vw;
+    }
+
+    
+}
+
+#hero-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+
+#hero-form input{
+    max-width: 300px;
+    width: 100%;
+    min-width: 120px;
+    padding: 5px;
+}
+
+#hero-form button{
+    padding: 5px 20px;
+    text-transform: uppercase;
+    background-color: rgb(169, 211, 15);
+    border:none;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+#hero-form button:hover{
+    cursor: pointer;
+    background-color: rgb(139, 173, 16);
+}
+
