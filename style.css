@@ -39,7 +39,7 @@ img{
     white-space: nowrap;
 }
 
-@media (max-width: 750px){
+@media (max-width: 749px){
     .header {
         font-size:  1.7vw;
     }
