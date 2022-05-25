@@ -101,3 +101,20 @@ img{
     background-color: rgb(139, 173, 16);
 }
 
+
+
+/* ====== Feature section ======= */
+
+.features{
+    display: flex;
+    margin: auto;
+}
+
+.grid{
+    display: flex;
+}
+
+
+#features .grid .icon img {
+    max-width: 7vw;
+}
