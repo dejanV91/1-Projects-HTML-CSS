@@ -94,6 +94,7 @@ img{
     border:none;
     font-weight: bolder;
     transition: 0.5s;
+    margin-bottom: 7%;
 }
 
 #hero-form button:hover{
@@ -112,9 +113,17 @@ img{
 
 .grid{
     display: flex;
+    margin: 2% 22%;
 }
 
 
 #features .grid .icon img {
-    max-width: 7vw;
+    max-width: min(20vw, 200px);
+    margin-right: 3vw;
 }
+
+
+@media (max-width: 600px){
+    .grid .desc h2, .grid .desc p{
+        font-size:  2vw;
+    }}
