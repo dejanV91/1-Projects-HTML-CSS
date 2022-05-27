@@ -153,3 +153,35 @@ img{
         height: min(44vw, 315px);
        
     }}
+
+    /* ==========products section========= */
+
+    #pay-section{
+        border: 1px solid black;
+        display:flex;
+        padding: 3% 20%;
+        gap: 0 5%;
+        
+    }
+
+    .products{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products h3{
+        box-sizing: border-box;
+        background-color: rgb(187, 185, 185);
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        white-space: nowrap;
+        font-size: 25%;
+    }
+
+    .products h2{
+        font-size: min(16px , 3vw);
+    }
