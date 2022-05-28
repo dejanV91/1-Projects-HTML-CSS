@@ -189,7 +189,6 @@ img{
 
     @media (max-width: 900px){
         .pay-section{
-            display: flex;
             flex-direction: column;
         }
     }
@@ -241,4 +240,37 @@ img{
     .products-button:hover{
         cursor:pointer;
         background-color: rgb(250, 192, 84);
+    }
+
+
+    /* ========footer======== */
+
+    #footer-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: rgb(187, 185, 185);
+        width:auto;
+    }
+
+    #footer-section ul{
+        display:flex;
+        flex-direction: row;
+        align-self: flex-end;
+    }
+
+    #footer-section ul li{
+        list-style: none;
+        margin: 10px 20px;
+    }
+
+    #footer-section ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #footer-section p{
+        align-self: flex-end;
+        margin-right: 20px;
+        opacity: 0.7;
     }
