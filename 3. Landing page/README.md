@@ -1,3 +1,2 @@
-
-Landing page from FreeCodeCamp
+# Landing page from FreeCodeCamp
 
