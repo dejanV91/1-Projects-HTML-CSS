@@ -1,2 +1,2 @@
-## HTML and CSS learning projects
+# HTML and CSS learning projects
 
