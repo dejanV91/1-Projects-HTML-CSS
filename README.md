@@ -1,3 +1,7 @@
+## Landing Page 
 
-Landing page from FreeCodeCamp
+Responsive Web Design Project from **[FreeCodeCamp](https://www.freecodecamp.org/)**
+
+## Stack:
+* Language: **HTML5**, **CSS3**
 
