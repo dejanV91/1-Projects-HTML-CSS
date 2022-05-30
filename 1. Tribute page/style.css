@@ -1,0 +1,113 @@
+#main {
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+#main h1 {
+    text-align: center;
+    text-align: center;
+    padding-top: 56px;
+    font-size: 44px;
+    
+}
+
+#main .subtitle {
+    text-align: center;
+    color: #808080;
+    margin-bottom: 30px;
+}
+
+
+
+
+#img-div{
+    margin: 10px;
+    padding: 10px; 
+    display: block;
+    background-color: white ;
+    
+}
+
+#image{
+    margin: 0 auto 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+#img-caption{
+    text-align: center;
+    margin: 15px 0 5px 0;
+   
+}
+
+@media screen and (max-width:600px){
+    #img-caption {
+        font-size: 3vw;
+    }
+}
+
+h5 {
+text-align: center;
+font-size: 20px;
+margin-top: 50px;
+}
+
+#timeline {
+    text-align: left;
+    max-width: 40%;
+    margin: 50px auto 20px auto;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+@media screen and (max-width : 800px){
+    #timeline{
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width : 400px){
+    #timeline{
+        max-width: 90%;
+    }
+}
+
+#timeline li {
+    margin: 15px 0;
+}
+
+.bolded {
+    font-weight: bolder;
+}
+
+.cite-section {
+    text-align: left;
+    max-width: 40%;
+    margin: 50px auto 20px auto;
+    line-height: 1.6;
+    font-size: 17px;
+    font-style: italic;
+}
+
+@media screen and (max-width : 800px){
+    .cite-section{
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width : 500px){
+    .cite-section{
+        max-width: 90%;
+    }
+}
+
+.link-section {
+    text-align: center;
+    margin: 50px auto 0 auto;
+    font-size: 20px;
+    width: 80%;
+    padding-bottom: 20px;
+}
